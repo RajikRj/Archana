@@ -5,7 +5,7 @@
     <classes>
       <class name="Test.Third">
         <methods>
-          <include name="Alerts"/>
+          <include name="Leaf"/>
           <include name="Before"/>
         </methods>
       </class> <!-- Test.Third -->
