@@ -45,6 +45,10 @@ public class Third extends BaseTest {
 		WebElement dismis = obj.findElement(By.xpath("(//span[@class=\"ui-button-icon-left ui-icon ui-c pi pi-check\"])[1]"));
 		dismis.click();
 		
+		WebElement alert4 = obj.findElement(By.xpath("(//span[@class=\"ui-button-text ui-c\"])[7]"));
+		alert4.click();
+		Alert a4 = obj.switchTo().alert();
+		a4.dismiss();
 		
 	}
 	
